@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<!-- Angular -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+	<script src = "js/angular.js"></script>
+	<script src = "js/login.js"></script>
+	<script src = "js/script.js"></script>
+	<head>
+	<title>Movie Database</title>
+	</head>
+	<body>
+	<div style = "background-color : #F8F9FA">
+		<h1 class = "center"><font color= "black">Movie Database</h1>
+	</div>
+	<nav class="navbar navbar-expand-sm navbar-light bg-light">
+		<div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse text-center" id="navbarsExample11">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="aboutme.html">About Me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" onclick = logout(); href="login.html">Logout</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		</nav>
+		<div class = "row">
+			<table id="example" class="col span-5-of-5 table table-striped table-bordered hover" style="width:50%">
+				<thead>
+					<tr>
+						<th>Movie Poster</th>
+						<th>Movie Name</th>
+						<th>Release Date</th>
+						<th>Detail</th>
+					</tr>
+				</thead>
+				<tbody class = "info_section">
+				</tbody>
+		</div>
+	</body>
+</html>
